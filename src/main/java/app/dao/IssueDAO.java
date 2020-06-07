@@ -17,8 +17,8 @@ import org.springframework.transaction.annotation.*;
  * 
  * @generated
  */
-@Repository("UserDAO")
+@Repository("IssueDAO")
 @Transactional(transactionManager="app-TransactionManager")
-public interface UserDAO extends JpaRepository<User, java.lang.String> {
+public interface IssueDAO extends JpaRepository<Issue, java.lang.Integer> {
 
 }

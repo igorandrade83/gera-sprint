@@ -37,7 +37,7 @@
   </nav>
 </div>
 <div ui-view="" id="main-view" tabindex="-1" role="main" class="container-fluid main-view main-view-horizontal">
-    <h1 class="component-holder text-left h3 title">{{'Home.view.Home' | translate}}</h1>
+    <h1 class="component-holder text-left h3 title">{{'Home.view.Home' | translate}}</h1><div class="component-holder ng-binding ng-scope" data-component="crn-textinput" id="crn-textinput-27191"><div class="form-group"><label for="input869111721">Usuario do Jira</label><input type="text" mask="" mask-placeholder="" ng-required="false" ng-model="vars.usuario" class="form-control k-textbox" id="input869111721" placeholder="Placeholder text"></div></div><div class="component-holder ng-binding ng-scope" data-component="crn-textinput" id="crn-textinput-1001461"><div class="form-group"><label for="input8691">Token da API do Jira</label><input type="password" mask="" mask-placeholder="" ng-required="false" ng-model="vars.token" class="form-control k-textbox" id="input8691" placeholder="Placeholder text"></div></div><div class="component-holder ng-binding ng-scope" data-component="crn-button" id="crn-button-656721"><button class="btn btn-default k-button btn-block" ng-click="cronapi.server('blockly.Util.setTokenUserJira').run(vars.usuario, vars.token)" xattr-fullsize="btn-block" xattr-theme="btn-default" xattr-disabled=""><i class="glyphicon glyphicon-home"></i> <span>Salvar</span></button></div><div class="component-holder ng-binding ng-scope" data-component="crn-button" id="crn-button-17581"><button class="btn btn-default k-button btn-block" ng-click="cronapi.server('blockly.ApiJira.ObterIssueDeSprint').run('DI', 'DI Sprint 34')" xattr-fullsize="btn-block" xattr-theme="btn-default" xattr-disabled=""><i class="glyphicon glyphicon-home"></i> <span>teste</span></button></div>
 </div>
 <div class="modal fade" id="modalPassword">
   <div class="modal-dialog">
@@ -48,7 +48,7 @@
       </div>
       <div class="modal-body">
         <form class="form-validation" autocomplete="off" name="form" role="form">
-          <input type="hidden" name="csrf_token" value="CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz" />
+          <input type="hidden" name="csrf_token" value="CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz">
           <div class="text-danger wrapper text-center" ng-show="authError">
           </div>
           <div class="list-group list-group-sm">

@@ -723,7 +723,7 @@
         "nameProject:java.lang.String",
         "priority:java.lang.String",
         "summary:java.lang.String",
-        "sprint:java.lang.Integer",
+        "timeSpent:java.lang.Integer",
         "sprintName:java.lang.String",
         "timeEstimate:java.lang.String",
         "aggregateTimeOriginalEstimate:java.lang.String",
@@ -738,7 +738,7 @@
         },
         ".uml-class-attrs-text": {
           "font-size": 11,
-          "text": "id\nkey\nnameProject\npriority\nsummary\nsprint\nsprintName\ntimeEstimate\naggregateTimeOriginalEstimate\nassignee\nstatusId\nStatusName\n"
+          "text": "id\nkey\nnameProject\npriority\nsummary\ntimeSpent\nsprintName\ntimeEstimate\naggregateTimeOriginalEstimate\nassignee\nstatusId\nStatusName\n"
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
@@ -902,14 +902,14 @@
           "isVersion": false
         },
         {
-          "name": "sprint",
+          "name": "timeSpent",
           "type": "java.lang.Integer",
-          "dbName": "sprint",
+          "dbName": "timeSpent",
           "dbLength": "",
           "dbPrecision": "",
           "dbScale": "",
           "dbDefaultValue": "",
-          "label": "{{\u0027Sprint\u0027 | translate}}",
+          "label": "{{\u0027TempoJaRegistrado\u0027 | translate}}",
           "mask": "",
           "isPrimaryKey": false,
           "isUniqueKey": false,

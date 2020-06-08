@@ -65,9 +65,9 @@ public class Issue implements Serializable {
     /**
     * @generated
     */
-    @Column(name = "sprint", nullable = true, unique = false, insertable=true, updatable=true)
+    @Column(name = "timeSpent", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private java.lang.Integer sprint;
+        private java.lang.Integer timeSpent;
 
     /**
     * @generated
@@ -214,22 +214,22 @@ public class Issue implements Serializable {
         return this;
     }
     /**
-    * Obtém sprint
-    * return sprint
+    * Obtém timeSpent
+    * return timeSpent
     * @generated
     */
     
-    public java.lang.Integer getSprint(){
-        return this.sprint;
+    public java.lang.Integer getTimeSpent(){
+        return this.timeSpent;
     }
 
     /**
-    * Define sprint
-    * @param sprint sprint
+    * Define timeSpent
+    * @param timeSpent timeSpent
     * @generated
     */
-    public Issue setSprint(java.lang.Integer sprint){
-        this.sprint = sprint;
+    public Issue setTimeSpent(java.lang.Integer timeSpent){
+        this.timeSpent = timeSpent;
         return this;
     }
     /**

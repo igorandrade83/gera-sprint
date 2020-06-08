@@ -175,5 +175,6 @@
   "Responsavel": "Responsável",
   "IdStatus": "Id do Status",
   "StatusId": "Id do Status",
-  "NomeDoStatus": "Nome do Status"
+  "NomeDoStatus": "Nome do Status",
+  "TempoJaRegistrado": "Tempo já Registrado"
 }

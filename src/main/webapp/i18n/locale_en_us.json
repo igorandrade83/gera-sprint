@@ -174,5 +174,6 @@
   "EstimativaOriginal": "Time Original",
   "Responsavel": "Assignee",
   "IdStatus": "Status Id",
-  "NomeDoStatus": "StatusName"
+  "NomeDoStatus": "StatusName",
+  "TempoJaRegistrado": "Time Spent"
 }
